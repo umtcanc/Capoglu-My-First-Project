@@ -1,0 +1,1 @@
+$(".js-open-menu").click(function(){$(".header-menu").toggleClass("active"),$(window).width()<992&&$("body, html").toggleClass("scroll-disabled")}),$(".js-open-sub-menu").click(function(){$(this).hasClass("active")?$(this).removeClass("active"):($(".js-open-sub-menu").removeClass("active"),$(this).addClass("active"))});

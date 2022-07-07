@@ -1,0 +1,33 @@
+.second_title{
+    display: flex;
+}
+
+.loading{
+    width: 8.88rem;
+    height: 8.88rem;
+    margin: auto;
+    position: relative;
+    border-radius: 50%;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    &-item{
+        display: flex;
+        .nkt{
+            padding:0 5px;
+            font-size: 20px;
+            margin-bottom:1.11rem;
+            transition: .3s;
+        }
+    }
+    &:hover{
+        .nkt{
+            font-size: 30px;
+        }
+        background-color: #fbfbfb;
+    }
+    
+}
+

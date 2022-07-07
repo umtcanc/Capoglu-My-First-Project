@@ -1,0 +1,131 @@
+extends blocks/layout
+block vars
+    - var index = false;
+    - var header = true;
+    - var logo = false;
+block append head
+    title dayanikli-tuketim - ÇAPOĞLU
+block content
+    .sektor_vektor
+        .verticalstroke     
+        .horizontalstroke
+        .parallel
+
+    .pageintros  
+        .pageintros-infos 
+            .subpage-navsa  Dayanıklı Tüketim
+            h1.pageintros-infos-title Arçelik & Beko Yetkili Servis Hizmetleri   
+            .pageintros-infos-text 
+                p Çapoğlu Şirketler Grubu, dayanıklı tüketim sektörü yetkili servis hizmetlerinde yeniliklere ve değişen teknolojiye hızlıca adapte olan, dijitalleşen hanelerin&nbsp;ve şirketlerin güvenilir çözüm ortağı olmaya devam ediyor.        
+        .pageintros-images 
+            img(src="assets/img/tuketim-intro.jpg", alt="")
+    .subpage-container.container 
+        section.subpage.sector_detail
+            .sectors-intro
+                .sectors-intro-sol     
+                    .subject 
+                        .subpage-navs Şirket Tanımı
+                    .sectors-intro-title 
+                        .black Deneyim, 
+                        .red hizmet,
+                            span kalite
+                .sectors-intro-sag                   
+                    .sectors-intro-text 
+                        p Of Arçelik &amp; Beko Yetkili Servis hizmetlerinde beyaz eşya, ankastre, elektronik, ısıtma-soğutma, küçük ev aletleri, tamamlayıcı ürünler ve su arıtma gibi ana başlıklar altında ürün çeşitleri yer almaktadır. Of Arçelik &amp; Beko Yetkili Servisi ağında, Trabzon’a bağlı Of, Hayrat, Dernekpazarı ve Çaykara ilçelerine yetkili servis hizmeti vermektedir. Hizmet verdiğimiz markalar: 
+            //- section.brands 
+            //-     .brands-slider.owl-carousel.owl-theme.owl-theme_custom.owl-loaded.owl-drag
+            //-         .owl-stage-outer 
+            //-             .owl-stage(style="transform: translate3d(-2005px, 0px, 0px); transition: all 0.25s ease 0s; width: 210px;") 
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.active(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.active(style="width:200px;")
+            //-                     img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned.active(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned.active(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned.active(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned.active(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/tarihce.png", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+            //-                 .owl-item.cloned(style="width:200px")
+            //-                     .brands-slider-item 
+            //-                         img(src="assets/img/pin-red.svg", alt="")
+
+
+            .sectors_contact 
+                .sectors_contact-logo 
+                    | ARİF TEK
+                .sectors_contact-info
+                    a(href="").sectors_contact-info-item.address 
+                        img(src="assets/img/pin.svg", alt="") 
+                        |  Kazlıçeşme Mah. Abay Caf. Ottomare Suites No:223 İç Kapı No: 153 Zeytinburnu, İstanbul            
+                    a(href="").sectors_contact-info-item.phone 
+                        img(src="assets/img/pin.svg", alt="")
+                        |  +90 544 227 83 24 
+    section.bold_motto 
+        .bold_motto-wrapper
+            .row 
+                .col-xl-12
+                    .subject 
+                        .subpage-nav  NEREDEN BAŞLADIK
+                    .bold_motto-text
+                        p Çapoğlu Şirketler Grubu, dayanıklı tüketim sektöründe, 1981’den bu yana edindiği deneyimle, hizmet kalitesini koruyarak ve geliştirerek hizmet üretmeye devam etmektedir.
+        .bold_motto-line 
+            .horizontalstrks 
+            .parllel
+        .big_content 
+            .big_content-image 
+                img(src="assets/img/hakkimizda.jpg", alt="")
+            .big_content-info    
+                .subpage-nav ÇEVRE & KALİTE POLİTİKASI
+                .big_content-info-title
+                    | Uluslararası
+                    .bslks
+                        .red kalite uygunluk 
+                            span standartları
+                .big_content-info-text 
+                    p Çapoğlu Şirketler Grubu bünyesindeki yetkili servis hizmetlerimiz, uluslararası kalite uygunluk standartlarına uygundur. İnsan ve çalışan haklarına saygı ilkesi tüm insan kaynakları süreçlerimizin merkezinde yer almaktadır. Çalışanlarımız nezaket kurallarına uygun davranır ve büyük bir hassasiyetle çözüme odaklanır. Yetkili servis çalışanlarımız ürünlere ait teknik bilgiye sahip, dürüst ve şeffaf bir şekilde hizmet sunmaktadır.
+    section.gray_section 
+        .row 
+            .col-xl-5
+                .subject 
+                    .subpage-navsa DEĞERLERİMİZ
+                .sectors-intro-title 
+                    .black Kusursuz Hizmet 
+                    .red Politikası
+            .col-xl-7                
+                p  Yetkili servis hizmet ağımızda, Arçelik ve Beko’nun kurumsal ilkeleriyle, faaliyet gösterilmektedir. Kalite, enerji, iş sağlığı ve güvenliği, sera gazı yönetim sistemleri, sürdürülebilirlik yaklaşımı ve Global İş Etiği İlkeleriyle, hizmetlerini bütünleşik bir şekilde yönetmektedir.

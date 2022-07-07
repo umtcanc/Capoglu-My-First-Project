@@ -1,0 +1,141 @@
+extends blocks/layout
+block vars
+    - var index = true;
+    - var header = true;
+    - var logo = true;
+
+
+block append head
+    title Hakkımızda - ÇAPOĞLU
+block content
+    .arkaplan-tarihce 
+        .verticalstrokes       
+        .horizontalstrokes 
+        .parallels 
+    .pageintro-tarihce 
+        .pageintro-kariyer.asd
+            .subpage-nav HAKKIMIZDA
+            .pageintro-sp-hk
+                span 4 farklı sektörde,
+                span  3 güçlü şirket
+            p Cesaretle girdiğimiz her sektörde üretim ve hizmetlerimizle fark yarattık! Kurumsal kültürümüz, heyecanımız, ilkelerimiz ve stratejik planlamalarımızla güçlü bir vizyona sahibiz. 
+        .kariyer-img 
+            img(src="assets/img/hakkimizda.jpg", alt="kariyer", )
+    .subpage-container.container
+        section.subpage.aboutus
+            section.vision
+                .vision_line
+                .vision_line2
+                .row 
+                    .col-lg-10.offset-lg-1.col-md-12
+                        .row 
+                            .col-md-6
+                                .card
+                                    .card-icon
+                                        img(src="assets/img/vizyon.svg", alt="")
+                                    h4.card-title Vizyon
+                                    .card-text 
+                                        p Dünden edindiğimiz deneyim, bugün üzerine koyduğumuz çaba ve yarın için umutla beslediğimiz hedefleri gözeterek, güçlü ve istikrarlı adımlar atmak. Daha refah bir toplumsal ve bireysel yaşam amaçlamak. Bölge ve ülke ekonomisine katkı sağlamak. Verimli, fark yaratan ve sürdürülebilir hizmetler sunmak. Güçlü rekabet yetisi kazanmak ve istikrarla büyümek.
+                            .col-md-6
+                                .card.lft
+                                    .card-icon
+                                        img(src="assets/img/vizyon.svg", alt="")
+                                    h4.card-title Misyon
+                                    .card-text 
+                                        p Hizmet üretim sürecinin her aşamasında teknolojik ve ticari uygulamaları geliştirmek, üretimin gücüne inanarak; bölgede ve ülke genelinde yatırımlar yapmaya ve yeni sektörlere dahil olmaya devam etmeyi milli bir görev kabul etmek. Kurumsal yapının yetenek ve deneyimini kullanarak daha etkin olmak. Kurumsal ilkelerden taviz vermeden büyümeye devam etmek.
+            .whois 
+                .row 
+                    .col-xl-5 
+                        .whois-image 
+                            img(src="assets/img/-capoglu-tarihce.jpg" alt="-capoglu-tarihce")
+                            .image_parallel
+                    .col-xl-5
+                        .whois-content 
+                            .subpage-nav(style="font-size:14px;")   Biz Kimiz?
+                            .pageintro-sp-who
+                                span Yarım yüzyıla dayanan
+                                span  başarı hikayemiz
+                            .text
+                                p Çapoğlu Şirketler Grubu, 1975 yılında, Ahmet Çapoğlu tarafından  temelleri atılan bir aile şirketidir. Yarım yüzyıla dayanan deneyimi ve  köklü kurumsal yapısıyla girdiği sektörlerde fark yaratmayı kurumsal ilke edinmiştir.
+                                p(style="margin-top:10px;")  Çapoğlu Şirketler Grubu, 4 farklı sektörde güçlü temeller üzerine kurulmuş, kurumsal ekosistemini tüm sektörlerde sürdürebilen öz kültüre sahiptir. Stratejik atılımlarla sağlam bir vizyon oluşturmuş, ülke ve insan sevgisini merkezde tutarak; yatırımları, hizmetleri ve özverili çalışmalarıyla ülkesini kalkındırmayı amaçlamaktadır.
+    section.sectors
+        .container.subpage-container
+            .sectors-introxx
+                .sectors-introxx-sols
+                    .subpage-hkk 
+                    h4 Şirketler
+                    h3.sectors-intro-title 
+                        span 4 Sektörde  
+                        p 3 Şirket 
+                .sectors-introxx-sags 
+                    .sectors-intro-text 
+                        p Çapoğlu Şirketler Grubu bilgi teknolojileri, dayanıklı tüketim, inşaat ve madencilik olmak üzere dört sektörde hizmet vermektedir.
+        .sectors-items 
+            .sectors-item
+                .sectors-item-image 
+                    .bfre
+                    img.img1(src="assets/img/arce.jpg", alt="")
+                    .image-prll
+                .sectors-item-content.ysd
+                    .sectors-item-content-subtitle Bilgi Teknolojileri 
+                    .sectors-item-content-title 
+                        .black 
+                        .red Cap Teknoloji
+                    .sectors-item-content-text 
+                        p Bilgi Teknolojileri sektöründe Cap markası ile IT eğitimleri, Özelleştirilmiş Yazılım, Web Tasarım ve Mobil Uygulama geliştirme hizmetleri ve markalar için dijital pazarlama gibi hizmetler sunmaktadır.
+                    .sectors-item-content-link
+                        a(href="bilgitekno.html")  ZİYARET ET
+            .sectors-item
+                .sectors-item-content
+                    .sectors-item-content-subtitle DAYANIKLI TÜKETİM 
+                    .sectors-item-content-title 
+                        .black Arif Tek
+                        .red Servis Hizmetleri
+                    .sectors-item-content-text 
+                        p Dayanıklı tüketim sektöründe Koç Grubu'na bağlı Arçelik ve Beko markalarının Trabzon’un Of, Hayrat, Dernekpazarı ve Çaykara ilçelerindeki yetkili servis ağının işlerliğinde kurumsal hizmet üretmektedir.
+                    .sectors-item-content-link
+                        a(href="tuketim.html")  ZİYARET ET 
+                .sectors-item-image 
+                    .bfre2                     
+                    img.img2(src="assets/img/arce.jpg", alt="")
+                    .image-prll2
+            .sectors-item
+                .sectors-item-image 
+                    .bfre
+                    img.img1(src="assets/img/arce.jpg", alt="")
+                    .image-prll
+                .sectors-item-content.ysd
+                    .sectors-item-content-subtitle İNŞAAT 
+                    .sectors-item-content-title 
+                        .black 
+                        .red Cap İnşaat
+                    .sectors-item-content-text 
+                        p İnşaat sektöründe, yoğunluklu olarak İstanbul'da, kentsel dönüşüm projelerinde faaliyet göstermektedir.
+                    .sectors-item-content-link
+                        a(href="insaat.html")  ZİYARET ET
+            .sectors-item
+                .sectors-item-content
+                    .sectors-item-content-subtitle MADENCİLİK
+                    .sectors-item-content-title 
+                        .black Baltacı Madencilik
+                        .red 
+                    .sectors-item-content-text 
+                        p Madencilik sektöründe, Baltacı Madencilik şirketiyle Trabzon’un Of ilçesinde Kavakpınar ve Hayrat olmak üzere iki farklı noktada üretim yapmaktadır.
+                    .sectors-item-content-link
+                        a(href="maden.html")  ZİYARET ET 
+                .sectors-item-image 
+                    .bfre2                     
+                    img.img2(src="assets/img/arce.jpg", alt="")
+                    .image-prll2
+    section.motto 
+        .container.subpage-container 
+            .left 
+                .subpage-nav BİZ KİMİZ?
+                .pageintro-sp-hk
+                    span Durmadan
+                    span  ve yorulmadan
+                    span  çalışacağız  
+            .right
+                p Çapoğlu Şirketler Grubu, iyi yetişmiş insan kaynakları, güncel teknolojik altyapısı, 45 yılı aşan tecrübesi ve güçlü kurumsal yapısıyla, değer yaratmaya, üretmeye ve istikrarlı yükselişine devam edecektir.
+                
+            

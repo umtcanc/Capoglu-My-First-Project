@@ -1,0 +1,91 @@
+extends blocks/layout
+block vars
+    - var index = false;
+
+block append head
+    title İNŞAAT - ÇAPOĞLU
+block content
+    .sektor_vektor
+        .verticalstroke     
+        .horizontalstroke
+        .parallel
+
+    .pageintros  
+        .pageintros-infos 
+            .subpage-navsa  İNŞAAT
+            h1.pageintros-infos-title İnşaat Sektörü'nün Yükselen Değeri   
+            .pageintros-infos-text 
+                p Çapoğlu Şirketler Grubu olarak, tamamladığımız projeler, güvenilir ve güçlü referanslarımız, kalite nihai hedefimiz oldu.      
+        .pageintros-images.imgsize 
+            img(src="assets/img/insaat-intro.jpg", alt="")
+    .subpage-container.container 
+        section.subpage.sector_detail
+            .sectors-intro
+                .sectors-intro-sol     
+                    .subject 
+                        .subpage-navs Şirket Tanımı
+                    .sectors-intro-title 
+                        .black Türkiye'nin 
+                        .red yükselen
+                            span değeri
+                .sectors-intro-sag                   
+                    .sectors-intro-text 
+                        p Çapoğlu Şirketler Grubu 2016 yılında inşaat sektörüne girerek, pek çok projeye imza atmıştır. İnşaat sektöründeki çalışmalarını; kat karşılığı inşaat, münferit inşaat, mimari proje çizimi ve kentsel dönüşüm başlıkları altında sürdürmektedir. Kentsel Dönüşüm çalışmalarında İstanbul ilinde Kentsel Dönüşüm Proje Alanı, Kentsel Dönüşüm Yasal Takip ve Kentsel Dönüşüm Uygulama gibi hizmetler verilmektedir.             
+            .sectors_contact
+                .row 
+                    .col-xl-4
+                        .sectors_contact-logo 
+                            | ÇAPOĞLU İNŞAAT
+                    .col-xl-8
+                        .sectors_contact-info
+                            a(href="").sectors_contact-info-item.address 
+                                img(src="assets/img/pin.svg", alt="") 
+                                |  - SAKARYA ERENLER 
+                            a(href="" style = "margin-top: 15px;" ).sectors_contact-info-item.address    
+                                img(src="assets/img/pin.svg", alt="")
+                                |  -  538 099 99 99      
+    section.bold_motto 
+        .bold_motto-wrapper
+            .row 
+                .col-xl-12
+                    .subject 
+                        .subpage-nav  NEREDEN BAŞLADIK
+                    .bold_motto-text
+                        p Çapoğlu Şirketler Grubu 2016 yılında inşaat sektörüne girerek, pek çok projeye imza atmıştır.
+        .bold_motto-line 
+            .horizontalstrks 
+            .parllel
+        .big_content 
+            .big_content-image 
+                img(src="assets/img/hakkimizda.jpg", alt="")
+            .big_content-info    
+                .subpage-nav KALİTE, ÇEVRE & İSG POLİTİKAMIZ
+                .big_content-info-title
+                    | İş güvenliği
+                    .bslks
+                        .red kırmızı 
+                            span çizgimiz
+                .big_content-info-text 
+                    p Çapoğlu Şirketler Grubu, inşaat sektöründeki çalışmalarda doğayla bütünleşen, çevreye duyarlı, kalite standartlarına uygun yaşam alanları inşâ etmeyi temel ilke edinmiştir. Bu kapsamdaki hizmetler, hammadde ve enerji kaynaklarının ürün kalitesini etkilemeyecek şekilde tasarruflu kullanılması ve geri dönüşüm vizyonuyla değerlendirilmesi ve doğal kaynakların korunması yönünde sürdürülmektedir. Ayrıca inşaat sektöründeki çalışmalarda iş güvenliği ve riskleri göz önüne alarak, iş güvenliğine yönelik gerekli tedbirleri almak ve toplam kalite yolunda faaliyetlerine devam etmektedir.
+    section.gray_section 
+        .row.hiza 
+            .col-xl-5
+                .subject 
+                    .subpage-navsa FAALİYET ALANLARI
+                .sectors-intro-title 
+                    .black Kentsel dönüşüm
+                    .red projeleri geliştiriyoruz
+            .col-xl-7                
+                p  İnşaat sektöründeki çalışmalarını; kat karşılığı inşaat, münferit inşaat, mimari proje çizimi ve kentsel dönüşüm başlıkları altında sürdürmektedir. Kentsel Dönüşüm çalışmalarında İstanbul ilinde Kentsel Dönüşüm Proje Alanı, Kentsel Dönüşüm Yasal Takip ve Kentsel Dönüşüm Uygulama gibi hizmetler verilmektedir.
+    section.gray_section
+         .row 
+            .col-xl-12
+                .subject 
+                    .subpage-navsa PROJELERİMİZ
+                .sectors-intro-title.second_title
+                    .black Yenilikçi
+                    .red projelerimiz
+                .loading(style = "cursor:wait;") 
+                    .loading-item 
+                        .nkt . . .
+                        

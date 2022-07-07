@@ -1,0 +1,58 @@
+extends blocks/layout
+block vars
+    - var index = false;
+    - var logo = true ;
+
+
+block append head   
+    title İletişim - ÇAPOĞLU
+block content
+    .background.empty
+        .verticalstroke     
+        .horizontalstroke
+        .parallel
+    .pageintro.noimage
+    .subpage-navsa(style = "margin-left:7rem;") İletişim
+    .pageintro-info-title
+        span Dilediğiniz zaman
+        span bize ulaşabilirsiniz
+    .container         
+        .container-iletisim 
+            h2 İletişim formu 
+            .form-row 
+                label(for="isim") Adınız Soyadınız
+                    span (*)
+                input(type="text" id="isim" name="isim" placeholder="John Doe" required)
+                label(for="email") E-mail Adresiniz 
+                    span (*)
+                input(type="email" id="email" name="email" placeholder="johndoe@mail.com" required)
+                label(for="tel") Telefon Numaranız
+                    span (*)
+                input(type="tel" id="tel" name="tel" placeholder="0 --- --- -- --" required) 
+                label(for="mesaj") Mesajınız
+                    span (*)
+                textarea(name="", cols="", rows="",placeholder="Bir mesaj yazınız")
+                button.button1(type="submit")
+                    span Gönder 
+        .container-right 
+            h2 Genel Merkez 
+            h3 Adres 
+            h4 Sanayi Sitesi B Blok No:8 Of, Trabzon 
+            a(href="https//www.google.com" style = "z-index:100;")
+                button.button1(type="button")
+                    span Haritada Gör 
+                    //- span.icon-ok-sag 
+            h3 Telefon 
+            span.span1 +90 462
+            span.span2  771 44 44 
+            .trbzn
+                h2 İstanbul Ofisi
+                h3 Adres 
+                h4 Kazlıçeşme Mah. Abay Cad. Ottomare Suites No: 223 İç Kapı No:153 Zeytinburnu, İstanbul 
+                a(href="https//www.google.com")
+                    button.button1(type="button")
+                        span Haritada Gör  
+                        //- span.icon-ok-sag 
+                h3 Telefon 
+                span.span1 +90 462
+                span.span2  771 44 44

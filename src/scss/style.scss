@@ -1,0 +1,32 @@
+@import "config/_mixins.scss";
+@import "config/_variable.scss";
+@import "config/_normalize.scss";
+@import "config/_config.scss";
+@import "config/_fonts.scss";
+@import "external/bootstrap-custom-grid/bootstrap-grid.scss";
+
+
+@import "global/_global.scss";
+@import "helper/_utilities.scss";
+
+@import "components/_title.scss";
+@import "components/_form.scss";
+@import "components/_button.scss";
+@import "components/_social.scss";
+@import "components/_input.scss";
+@import "components/_section.scss";
+
+
+
+@import "global/_header.scss";
+@import "global/_footer.scss";
+
+@import "pages/_index.scss";
+@import "pages/_contact.scss";
+@import "pages/_kariyer.scss";
+@import "pages/_tarihce.scss";
+@import "pages/_hakkimizda.scss";
+@import "pages/_message.scss";
+@import "pages/_bilgitekno.scss";
+@import "pages/_tuketim.scss";
+@import "pages/_insaat.scss";

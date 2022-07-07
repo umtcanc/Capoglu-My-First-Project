@@ -1,0 +1,40 @@
+.social {
+  display: flex;
+  &__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: $transition;
+    background-color: #ffffff;
+    width: 6.3rem;
+    height: 6.3rem;
+    border-radius: 50%;
+    color: rgba(149, 149, 148, .5);
+    margin-left: 0;
+    & + & {
+      margin-left: 4.5rem;
+    }
+  }
+  .instagram{
+    &:hover{
+    transition: .3s;
+    color:  rgb(195, 42, 163);
+    }
+  }
+  .facebook{
+    &:hover{
+      color: #1877f2;
+    }
+  }
+  .twitter{
+    &:hover{
+      color: #1da1f2;
+    }
+  }
+  .linkedin{
+    &:hover{
+      color: rgb(24, 119, 242);
+    }
+  }
+}

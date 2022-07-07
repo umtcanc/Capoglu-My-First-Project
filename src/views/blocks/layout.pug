@@ -1,0 +1,139 @@
+doctype html
+html(lang="tr")
+    head
+        block head
+            meta(charset='UTF-8')
+            meta(http-equiv='X-UA-Compatible', content='IE=edge')
+            meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+            link(rel='icon' type='image/png' sizes='32x32' href='https://capoglu.com/wp-content/themes/capoglu/img/favicon-32x32.png')
+        block styles
+            link(href="https://unpkg.com/swiper@7/swiper-bundle.min.css",rel='stylesheet')
+            link(href="assets/css/style.css",rel='stylesheet')
+
+
+    body
+        block vars      
+        block header
+            
+            header.header
+                .header-left  
+                    a(class="header-logo" href="index.html") 
+                        if logo
+                            img(src="assets/img/Group 1835.svg", alt="")
+                        else 
+                            img(src="assets/img/logo.svg", alt="")
+                .header-right 
+                    if header 
+                        .header-right-langs.white-langs                 
+                            a(href="#" class="active") TR 
+                            a(href="#" class="") EN
+                        .header-right-menu__button.js-open-menu 
+                    else 
+                        .header-right-langs                  
+                            a(href="#" class="active") TR 
+                            a(href="#" class="") EN
+                        .header-right-menu__button.js-open-menu 
+                    nav.header-menu
+                        .header-menu-lefts
+                            .dropdown 
+                                button.link Kurumsal 
+                                .dropdown-menu 
+                                    a(href="tarihce.html")  Tarihçe 
+                                    a(href="hakkimizda.html")  Hakkımızda
+                                    a(href="message.html")  Başkanın Mesajı
+                                    a(href="mudur.html")  Genel Müdür
+                            .dropdown 
+                                button.link Sektörler 
+                                .dropdown-menu 
+                                    a(href="bilgitekno.html")  Bilgi Teknolojileri
+                                    a(href="tuketim.html")  Dayanıklı Tüketim
+                                    a(href="insaat.html")  İnşaat
+                                    a(href="maden.html")  Madencilik 
+                                a.link(href="kariyer.html") Kariyer   
+                                a.link(href="contact.html") İletişim                      
+                        .header-right-menu-info 
+                            .header-right-menu-info-item 
+                                .title  Adres 
+                                .text-content Kazlıçeşme Mah. Abay Cad. Ottomare Suites No: 223 İç Kapı No: 153 Zeytinburnu, İstanbul
+                            .header-right-menu-info-item 
+                                .title Telefon               
+                                .text-content.phone +90 212 435 61 61
+                            .header-right-menu-info-item 
+                                .title Bizi Takip Edin
+                                .socials
+                                    include components/social
+                            
+
+                                                        
+
+                
+
+
+        // İçerik Başlangıç
+        block content
+            
+        
+
+
+
+        // İçerik Bitiş
+        block footer
+            footer.footer
+                    .footer-top
+                        .footer-top-sol
+                            .footer-top-sol-social
+                                    h1 Bizi Takip Edin 
+                                    include components/social
+                        .footer-top-sag
+                            .footer-top-sag-kurumsal
+                                h6 KURUMSAL
+                                ul   
+                                    li 
+                                        a(href="tarihce.html")  Tarihçe  
+                                    li 
+                                        a(href="hakkimizda.html") Hakkımızda  
+                                    li 
+                                        a(href="message.html") Başkanın Mesajı  
+                                    li 
+                                        a(href="mudur.html") Genel Müdür
+                            .footer-top-sag-sektor
+                                h6 SEKTÖRLER
+                                ul   
+                                    li
+                                        a(href="bilgitekno.html") Bilgi Teknolojileri  
+                                    li
+                                        a(href="tuketim.html") Dayanıklı Tüketim   
+                                    li
+                                        a(href="insaat.html") İnşaat  
+                                    li
+                                        a(href="maden.html") Madencilik 
+                            .footer-top-sag-insank 
+                                a(href="kariyer.html") 
+                                    h6 KARİYER
+                                a(href="contact.html") 
+                                    h6 İLETİŞİM
+                    .footer-banner 
+                            .footer-banner-haklar 
+                                p  © 2020 Çapoğlu Şirketler Grubu Holding A.Ş. Tüm hakları saklıdır.
+                            .footer-banner-made 
+                             span.span3 Made By 
+                             a(href="https://pixelate.com.tr/")
+                              span.span4 Pixelate Creative    Studio                  
+                    .footer-bottom
+                            a(href="#").footer-copyright-menu__link Bilgi Toplumu Hizmetleri
+                            a(href="#").footer-copyright-menu__link Kullanım Koşulları
+                            a(href="#").footer-copyright-menu__link Kişisel Verilerin Korunması
+
+
+
+
+
+
+
+
+        block scripts
+            script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js')
+            script(src='https://unpkg.com/swiper@7/swiper-bundle.min.js')
+            script(src="assets/js/all.js")
+
+

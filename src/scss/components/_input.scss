@@ -1,0 +1,22 @@
+.input{
+  padding: $input-padding;
+  width: 100%;
+  height: 6rem;
+  border: 0;
+  background-color: $color-divider;
+  font-size: 1.8rem;
+  color: $color-text-full;
+  margin-bottom: 3.5rem;
+  &+&{
+    margin-top: 4rem;
+  }
+  &--textarea{
+    height: 12rem;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+    &::placeholder{
+      opacity: 0.5;
+
+    }
+  }
+}

@@ -1,0 +1,71 @@
+extends blocks/layout
+block vars
+    - var index = true;
+    - var logo = true;
+
+block append head
+    title KARİYER - ÇAPOĞLU
+block content 
+
+    .verticalstrokes       
+    .horizontalstrokes 
+    .parallels
+    .pageintro-kariyer
+        .subpage-nav KARİYER
+        .pageintro-sp-kr
+            span Takım oyununa inanan
+            span  bir ekibiz 
+        p Çalışanlarımızın esnek, şeffaf, çok yönlü bakış açısına sahip, kurumsal kültür ve etiğini içselleştirmiş, yeniliklere kolay adapte olabilmesi önceliğimizdir.
+    .pageintro-img 
+        img(src="assets/img/kariyer-intro.png", alt="kariyer", )
+    .section 
+        .pagefirst 
+            .pagefirst-card 
+                .card
+                    .icon
+                        .dfd
+                        img(src="assets/img/vizyon.svg", alt="")
+                    h3 İyi Yetişmiş İnsan Gücü
+                    p Çapoğlu Şirketler Grubu, iyi yetişmiş insan gücü sayesinde; nitelikli hizmet üretebilen, yenilikçi düşünmeyi, çözüm ve sonuç odaklı çalışmayı sağlayan bir sinerjiye sahiptir.
+                .card 
+                    .icon
+                        .dfd
+                        img(src="assets/img/vizyon.svg", alt="")
+                    h3 Hedef ve Stratejiler
+                    p Hedef ve stratejilerin gerçekleştirilmesi yönünde yüksek kurumsal motivasyonun oluşturulması, dinamik ve etkili organizasyonlar gerçekleştirilmesi yönünde teşviklerin yapılması sağlanmaktadır.
+                .card 
+                    .icon
+                        .dfd
+                        img(src="assets/img/vizyon.svg", alt="")
+                    h3 Daima Kendini Geliştir
+                    p Çapoğlu Şirketler Grubu bünyesinde yer alan her bir çalışan kişisel gelişimini ve hizmet kalitesini destekleyen eğitimlere açık olmalı, sektörde farklılaşmanın önemini kavramalıdır.   
+            .pagefirst-title 
+                h1 Kurumsal çalışma kültürü kapsamında takım çalışması, iletişim, işbirliği geliştirme, sonuç odaklılık, yaratıcılık, girişim, yeniliklere adaptasyon ve uyum gibi temel konularda yeterlilik sağlamalıdır.        
+    .pagesecond
+        .pagesecond-title  
+            span AÇIK 
+            span  POZİSYONLAR
+        .pagesecond-select 
+            .filter 
+                span    Filtrele
+                label(for="isim") Sektör
+                select(id="sektör" name="sektörlist" form="")
+                    option(value="all") Tüm Sektörler
+                    option(value="") Bilgi Teknolojileri    
+                    option(value="") Dayanıklı Tüketim
+                    option(value="") İnşaat
+                    option(value="") Madencilik
+                label(for="sehir") Şehir
+                select(id="sektör" name="sektörlist" form="")
+                    option(value="all") Tüm Şehirler
+                    option(value="") Ankara     
+                    option(value="") İstanbul
+                    option(value="") İzmir
+                    option(value="") Trabzon
+                button Filtrele 
+            .jobs 
+                 span Yazılım Geliştirme Uzmanı
+                 .talents 
+                    h5 (X) İstanbul
+                    h5 (X) Bilgi Teknolojileri
+                    

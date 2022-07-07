@@ -1,0 +1,42 @@
+extends blocks/layout
+block vars
+    - var index = true;
+    - var logo = true;
+
+block append head
+    title Başkanın Mesajı - ÇAPOĞLU
+block content
+    .arkaplan-tarihce 
+        .verticalstrokess       
+        .horizontalstrokess 
+        .parallelss 
+    .pageintro-kariyer.msg
+        .subpage-nav BAŞKANIN MESAJI
+        .pageintro-sp-kr
+            span Ahmet
+            span  Çapoğlu
+    .pageintro-bskn 
+        .pageintro-bskn-img 
+            img(src="assets/img/baskan.png", alt="baskan")
+            button   ÖZGEÇMİŞ
+        .pageintro-bskn-text 
+            .baslik
+                span "                            
+                h2 Kıymetli Çözüm Ortaklarımız, Saygıdeğer Çalışma Arkadaşlarım;
+            .icerik
+                p Son yıllarda dünya ekonomik ve politik sisteminde yaşanan küresel tıkanıklık, ülkemizi ve bölgemizi de etkiledi. Geleceğe yönelik söz söyleyebilmek zor görünse de; bizler umudun, azmin ve çalışmanın gücüne her daim inandık ve inancımızdan asla ödün vermedik!
+                p  Çapoğlu Şirketler Grubu’nun temellerini attığımız günlerde, ülkemiz zor bir süreçten geçiyordu. Ama biz karanlığı aşmak için umut etmek, hayal kurmak ve büyük  hedeflerimiz için inadına çalışmak gerektiğini biliyorduk. Öyle de yaptık! Bugün de yapmamız gereken en önemli şey, istikrarla çalışmak!
+                p Ülkemiz ve milletimiz için kurumsal deneyimimiz, iş ahlakımız, dürüstlüğümüz ve çalışkanlığımızla değer üretmeye, ülkemizi ve bölgemizi kalkındırmaya ve insanımıza kazandırmaya devam edeceğiz. Çapoğlu Şirketler Grubu olarak, müşteri memnuniyetini önemseyen, kaliteyi temel ilke edinmiş, katma değerli üretime inanan, çalışanlarının hak ve hukukunu hassasiyetle gözeten güçlü kurumsal yapımızla, sürdürülebilir yeni projelere imza atmaya devam edeceğiz. Bu süreçte bizimle omuz omuza, samimiyetle çalışan, ailemize güç katan herkese minnet ve teşekkürlerim sunuyorum.
+            .footerkk
+                h5 Ahmet Çapoğlu 
+                p Yönetim Kurulu Başkanı
+            .sosyal 
+                a.social__item.facebook(href='https://www.facebook.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-umut') 
+                a.social__item.twitter(href='https://twitter.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-twitter')
+                a.social__item.linkedin.active(href='https://www.linkedin.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-linkedin')

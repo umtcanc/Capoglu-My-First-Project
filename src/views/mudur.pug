@@ -1,0 +1,41 @@
+extends blocks/layout
+block vars
+    - var index = true;
+    - var logo = true;
+
+block append head
+    title Genel Müdür - ÇAPOĞLU
+block content
+    .arkaplan-tarihce 
+        .verticalstrokess       
+        .horizontalstrokess 
+        .parallelss 
+    .pageintro-kariyer.msg
+        .subpage-nav Genel Müdür
+        .pageintro-sp-kr
+            span Arif
+            span  Çapoğlu
+    .pageintro-bskn 
+        .pageintro-bskn-img 
+            img(src="assets/img/genelmdr.png", alt="baskan")
+            button   ÖZGEÇMİŞ
+        .pageintro-bskn-text 
+            .baslik
+                span "                            
+                h2 Kıymetli Çözüm Ortaklarımız, Saygıdeğer Çalışma Arkadaşlarım;
+            .icerik
+                p İnsanoğlunun sınırlarını zorladığı çarpıcı bir çağda yaşıyoruz. Bilim ve teknoloji bizlere büyük konfor sağlasa da pek çok zorluğu beraberinde getiriyor. Örneğin; başarı için iyi bir eğitim almış olmak artık yetmiyor. Yaşadığımız çağ, bilgi, güçlü iletişim, hız, çalışkanlık ve cesaret de istiyor. Bunun için dünyayı iyi okumak, geleceğe dair yeni bir söz söylemek, her zaman bir adım önde olmak, sınırları zorlamak ve asla vazgeçmemek gerek!
+                p  Çapoğlu Şirketler Grubu, inovasyona, girişimciliğe, kaliteye, sürdürülebilirliğe, bilgi ve deneyime önem veren, vizyon sahibi bir kuruluş. Bu ilkeler ışığında; orta ve uzun vadeli stratejik planlarımızla; hedeflerimize kararlılık ve istikrarla ilerleyecek, altyapı yatırımlarımızı sürdürerek, hizmet ağımızı genişleteceğiz. Bir yandan müşteri portföylerimizi genişletirken diğer yandan bulunduğumuz sektörlerde güçlü çözümler sunmaya; kalıcı ve etkin birer marka olmaya devam edeceğiz. Ülkemizin, bölgemizin geleceğine, refahına ve kalkınmasına özveriyle çalışarak katkı sağlayabilmek için çalışacağız. Yeni hedeflerimize doğru ilerlerken, bu yolda bizlere destek olan, bizimle birlikte özveriyle çalışan herkese teşekkürlerimi sunuyorum.
+            .footerkk
+                h5 Arif Çapoğlu
+                p Yönetim Kurulu Başkanı
+            .sosyal 
+                a.social__item.facebook(href='https://www.facebook.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-umut') 
+                a.social__item.twitter(href='https://twitter.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-twitter')
+                a.social__item.linkedin.active(href='https://www.linkedin.com/')
+                    svg.icon.icon-font
+                        use(xlink:href='assets/icons/icons.svg#icon-linkedin')
